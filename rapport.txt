@@ -1,0 +1,23 @@
+Hinder:
+Vi hade svårt i början eftersom vi inte hade bestämt en gemensam struktur för projektet. 
+Mitt under arbetet använde vi två olika strukturer, vilket gjorde det rörigt och orsakade problem innan vi enades.
+Vi hade också vissa problem med att hamburgarmenyn inte alltid fungerade som den skulle, men vi hjälptes åt genom att reviewa varandras kod.
+
+Lösningar:
+Till slut bestämde vi att alla i teamet skulle ha en egen mapp i main, och att vi placerade våra CSS- och JS-filer där. 
+På det sättet kunde vi arbeta parallellt och sedan mergea ihop allt mer organiserat.
+Vi samarbetade också i gruppen för att lösa problem med hamburgarmenyn genom att testa, jämföra kod och hjälpa varandra.
+
+Bidrag och roller:
+	•	Ashish – byggde den första och huvudsakliga HTML-strukturen.
+	•	Sarvin – skrev CSS och JavaScript och rapporten.
+    •	Olivia – skrev CSS och JavaScript och README.
+	•	Oligerta – arbetade med CSS och JS för layout.
+	•	Dennis – var Scrum Master och skrev CSS/JS.
+	•	Axel – var Repo Owner och skrev CSS/JS.
+	•	Mohammad – skrev CSS/JS.
+
+Sammanfattning:
+Trots en del hinder i början med struktur och kod, lyckades vi hitta en fungerande arbetsmetod. 
+Alla i gruppen deltog aktivt, bidrog med sin del och hjälpte varandra när det behövdes. 
+Resultatet blev en fungerande, responsiv navbar och vi lärde oss mer om samarbete i GitHub samt hur man kan strukturera ett gemensamt projekt bättre.
