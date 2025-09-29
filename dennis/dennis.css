@@ -32,7 +32,7 @@ body {
 }
 
 .navbar .menu {
-    display: none;
+    display: flex;
     flex-direction: column;
     gap: .5rem;
     background-color: #fff;
@@ -45,16 +45,32 @@ body {
     box-shadow: 0 6px 20px rgba(0,0,0,.1);
     z-index: 1000;
     list-style: none;
+    opacity: 0;
+    transition: opacity .3s ease, transform .3s ease;
+    pointer-events: none;
 }
 
 
 .navbar .menu.active {
-    display: flex;
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
 }
 
 .desktop-navbar {
     display: none;
 }
+
+main {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.lorem {
+    width: 70%;
+}
+
 
 @media (min-width: 426px) {
     .navbar {
@@ -71,6 +87,16 @@ body {
         margin: 0;
     }
     .desktop-navbar a {
+        display: block;
         text-decoration: none;
+        color: #444444;
+        transition: transform 0.3s ease;
+    }
+    .desktop-navbar a:hover {
+        transform: translateY(-2px);
+    }
+    .wrapper {
+        display: flex;
+        justify-content: space-around;
     }
 }
