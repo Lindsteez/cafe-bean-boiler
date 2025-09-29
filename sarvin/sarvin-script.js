@@ -1,6 +1,6 @@
 //Select elements
 const menuToggle = document.getElementById ("menuToggle");
-const menu = document.getElementById(".navbar .menu");
+const menu = document.querySelector(".navbar .menu");
 
 //Toggle menu when clicking hamburger 
 menuToggle.addEventListener ("click", () => {
