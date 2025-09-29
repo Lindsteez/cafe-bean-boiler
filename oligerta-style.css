@@ -1,0 +1,53 @@
+/* mobil först: menyn dold */
+#menu {
+display: none;
+position: absolute;
+top:60px;
+right:10px;
+width:200px;
+padding:20px;
+border-radius:5px;
+}
+#menu a {
+    color:beige;
+    text-decoration: none;
+    display: block;
+    padding: 10px 0;
+}
+
+#hamburger{ 
+display: block;
+position: absolute; 
+font-size: 30px;
+cursor: pointer;
+}
+
+/*menyn synlig när den har "open"-klassen*/
+#menu.open {
+display: block;
+background-color: rgba(0, 0, 0, 0.8);
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+z-index: 1000;
+}
+
+/* större skärmar: menyn alltid synlig, hamburgaren dold */
+@media (min-width: 600px) {
+    #menu {
+        display: block;
+        position: static;
+        width: auto;
+        padding: 0;
+        background-color: transparent;
+        box-shadow: none;
+    }
+    #menu a {
+        display: inline-block;
+        padding: 10px 15px;
+    }
+    #hamburger {
+        display: none;
+    }
+}
+
+
+
